@@ -1,7 +1,8 @@
 import { StatusBar } from 'expo-status-bar';
 // import LotsOfStyles from './components/LotsOfStyles';
 // import FixedDimensionsBasics from './components/FixedDimensionsBasics';
-import FlexDimensionsBasics from './components/FlexDimensionsBasics';
+// import FlexDimensionsBasics from './components/FlexDimensionsBasics';
+import PercentageDimensionsBasics from './components/PercentageDimensionsBasics';
 import { View } from 'react-native';
 
 export default function App() {
@@ -9,7 +10,8 @@ export default function App() {
     <View>
       {/* <LotsOfStyles /> */}
       {/* <FixedDimensionsBasics /> */}
-      <FlexDimensionsBasics />
+      {/* <FlexDimensionsBasics /> */}
+      <PercentageDimensionsBasics />
       <StatusBar style="auto" />
     </View>
   );
