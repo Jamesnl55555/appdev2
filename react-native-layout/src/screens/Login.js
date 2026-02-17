@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View, TextInput } from 'react-native';
+import { StyleSheet, Text, View, TextInput, Image } from 'react-native';
 import MaterialIcons from '@expo/vector-icons/MaterialIcons';
 
 export default function Login() {
@@ -6,7 +6,7 @@ export default function Login() {
         <View style={styles.container}>
             <View style={styles.loginContainer}>
                 <View style={styles.header}>
-                    <MaterialIcons name="account-circle" size={100} color="black" />
+                    <Image source={require('../assets/images/login.png')} style={{width: 100, height: 100}} />
                 <Text style={styles.title}>Login</Text>
                 </View>
                 <View style={styles.inputContainer}>
